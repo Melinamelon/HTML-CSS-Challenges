@@ -2,6 +2,10 @@
   font-family: sans-serif;
 }
 
+p {
+  margin-bottom: 8em;
+}
+
 header {
   background-color: #211a1d;
   color: #ffffff;
@@ -30,14 +34,14 @@ section {
 }
 
 img {
-  border: 5px solid #8075ff;
+  border: 5px solid #32a1a5;
 }
 
-h1,
-h2,
-h3,
-h4,
-h5 {
+.bear1 {
+  border-color: #ef6f6c;
+}
+
+h1, h2, h3, h4, h5 {
   /*Purple*/
   color: #6320ee;
   margin-bottom: 1em;
@@ -49,6 +53,7 @@ h1 {
 
 h2 {
   font-size: 175%;
+  color: rgb(212, 209, 209);
 }
 
 h3 {
@@ -75,9 +80,6 @@ footer {
   justify-content: space-between;
 }
 
-.introduction {
-}
-
 #badge {
   height: 120px;
   width: 120px;
@@ -87,7 +89,6 @@ footer {
   position: fixed;
   bottom: 20px;
   right: 20px;
-
   display: flex;
   justify-content: center;
   align-content: center;
@@ -114,16 +115,20 @@ footer {
 
 .tigers {
   background-color: #0b3c49;
-  color: #f0e100;
+  color: #bbb88f;
+  }
+
+.tigers h1 {
+  color: #000;
 }
 
 .giraffe {
-  background-color: #465775;
+  background-color: #483C46;
   color: #56e39f;
 }
 
 .giraffe h2 {
-  color: #ef6f6c;
+  color:#F4743B
 }
 
 .card {
@@ -168,8 +173,7 @@ footer {
   max-width: 400px;
 }
 
-.education-container h3,
-.education-container p {
+.education-container h3, .education-container p {
   margin-bottom: 1em;
 }
 
@@ -193,3 +197,16 @@ footer {
 .programs .card {
   display: block;
 }
+
+#logo {
+  border: none;
+  /*este funciono */
+}
+
+.introduction {
+  background-color: #ffffff;
+}
+
+.bearimg1 {
+  border-color: #ef6f6c;
+} 

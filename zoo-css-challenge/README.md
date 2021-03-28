@@ -21,8 +21,7 @@ Add a paragraph to this section with the following text:
 ## 2) Bears:
 
 Most of the paragraphs are too close to the content below it. Give every paragraph some margin at the bottom so that they have a bit more space.
-
-All the images of bears have the same border colour, can all these images be given a different border colour?
+ All the images of bears have the same border colour, can all these images be given a different border colour?
 
 The images of the bears are also misaligned. Can all these images be vertically aligned to the top of the container.
 
