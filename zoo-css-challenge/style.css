@@ -69,6 +69,13 @@ button {
   background-color: #372772;
   border: 2px solid black;
   color: #fff;
+  font-size: 25px;
+  border-radius: 20px 15px;
+}
+
+
+button:hover {
+  background-color: gold;
 }
 
 footer {
@@ -116,7 +123,7 @@ footer {
 .tigers {
   background-color: #0b3c49;
   color: #bbb88f;
-  }
+}
 
 .tigers h1 {
   color: #000;
@@ -128,7 +135,11 @@ footer {
 }
 
 .giraffe h2 {
-  color:#F4743B
+  color: #F4743B
+}
+
+.giraffe h2 {
+  text-align: center
 }
 
 .card {
@@ -154,6 +165,16 @@ footer {
   opacity: 0.5;
   display: inline-block;
   margin-bottom: 10px;
+}
+
+.membership p {
+  max-width: 700px
+}
+
+.membership {
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 /*Education*/
@@ -209,4 +230,4 @@ footer {
 
 .bearimg1 {
   border-color: #ef6f6c;
-} 
+}
